@@ -7,6 +7,35 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Peyton's Subs and Software" HorizontalAlignment="Center" Height="60" Margin="0,10,0,0" VerticalAlignment="Top" Width="450" FontSize="36"/>
+        <Label HorizontalAlignment="Left" Height="31" Margin="175,75,0,0" VerticalAlignment="Top" Width="142" Content="Please Order Here Below"/>
+        <Label HorizontalAlignment="Left" Height="31" Margin="402,75,0,0" VerticalAlignment="Top" Width="223" Content="You Can Only Buy ONE Sub At This Time"/>
+        <Label Content="Size Sub" HorizontalAlignment="Left" Height="42" Margin="30,111,0,0" VerticalAlignment="Top" Width="95" FontSize="22" RenderTransformOrigin="-0.297,0.559"/>
+        <RadioButton x:Name="radioButtonSix" Content="Six Inch" HorizontalAlignment="Left" Height="40" Margin="175,120,0,0" VerticalAlignment="Top" Width="124" FontSize="22"/>
+        <RadioButton x:Name="radioButtonFoot" Content="Foot Long" HorizontalAlignment="Left" Height="40" Margin="402,120,0,0" VerticalAlignment="Top" Width="120" FontSize="22"/>
+        <Label Content="Bread" HorizontalAlignment="Left" Height="33" Margin="108,175,0,0" VerticalAlignment="Top" Width="61" FontSize="18"/>
+        <Label Content="Meat" HorizontalAlignment="Left" Height="33" Margin="256,175,0,0" VerticalAlignment="Top" Width="61" FontSize="18"/>
+        <Label Content="Cheese" HorizontalAlignment="Left" Height="33" Margin="402,175,0,0" VerticalAlignment="Top" Width="76" FontSize="18"/>
+        <Label Content="Veggies" HorizontalAlignment="Left" Height="33" Margin="549,175,0,0" VerticalAlignment="Top" Width="76" FontSize="18"/>
+        <RadioButton x:Name="radioButtonWheat" Content="Wheat" HorizontalAlignment="Left" Height="27" Margin="90,217,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton x:Name="radioButtonItalian" Content="Italian" HorizontalAlignment="Left" Height="27" Margin="90,244,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton x:Name="radioButtonFlat" Content="Flat Bread (+.50)" HorizontalAlignment="Left" Height="27" Margin="90,271,0,0" VerticalAlignment="Top" Width="107"/>
+        <RadioButton x:Name="radioButtonHam" Content="Ham" HorizontalAlignment="Left" Height="27" Margin="237,217,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton x:Name="radioButtonChicken" Content="Roasted Chicken" HorizontalAlignment="Left" Height="27" Margin="237,244,0,0" VerticalAlignment="Top" Width="108"/>
+        <RadioButton x:Name="radioButtonMeatball" Content="Meatball (+1.00)" HorizontalAlignment="Left" Height="27" Margin="237,271,0,0" VerticalAlignment="Top" Width="108"/>
+        <RadioButton x:Name="radioButtonSteak" Content="Steak (+1.50)" HorizontalAlignment="Left" Height="27" Margin="237,298,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton x:Name="radioButtonAmerican" Content="American (+.25)" HorizontalAlignment="Left" Height="27" Margin="392,217,0,0" VerticalAlignment="Top" Width="107"/>
+        <RadioButton x:Name="radioButtonSwiss" Content="Swiss (+.30)" HorizontalAlignment="Left" Height="27" Margin="392,244,0,0" VerticalAlignment="Top" Width="96"/>
+        <RadioButton x:Name="radiobButtonPJ" Content="PepperJack (+.75)" HorizontalAlignment="Left" Height="27" Margin="392,271,0,0" VerticalAlignment="Top" Width="122"/>
+        <RadioButton x:Name="radioButtonCucumber" Content="Cucumber" HorizontalAlignment="Left" Height="27" Margin="539,217,0,0" VerticalAlignment="Top" Width="96"/>
+        <RadioButton x:Name="radioButtonGP" Content="GreenPepper (+.25)" HorizontalAlignment="Left" Height="27" Margin="539,244,0,0" VerticalAlignment="Top" Width="124"/>
+        <RadioButton x:Name="radioButtonLettuce" Content="Lettuce (+.15)" HorizontalAlignment="Left" Height="27" Margin="539,273,0,0" VerticalAlignment="Top" Width="96"/>
+        <RadioButton x:Name="radioButtonRO" Content="RedOnion (+.10)" HorizontalAlignment="Left" Height="27" Margin="539,298,0,0" VerticalAlignment="Top" Width="107"/>
+        <RadioButton x:Name="radioButtonAV" Content="AllVeggies (+.25)" HorizontalAlignment="Left" Height="27" Margin="539,325,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="labelAnswer" Content="Your Sub Here" HorizontalAlignment="Center" Height="32" Margin="0,357,0,0" VerticalAlignment="Top" Width="526" RenderTransformOrigin="0.913,-0.292"/>
+        <Label Content="Special*** $2.00 Off Foot Long Wheat/ Meatball/ American Cheese" HorizontalAlignment="Center" Height="29" Margin="0,395,0,0" VerticalAlignment="Top" Width="368"/>
+        <Button x:Name="buttonOrder" Content="Order Here" HorizontalAlignment="Left" Height="35" Margin="639,389,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click"/>
+        <Label x:Name="labelCost" Content="" HorizontalAlignment="Left" Height="27" Margin="639,357,0,0" VerticalAlignment="Top" Width="151"/>
 
     </Grid>
 </Window>

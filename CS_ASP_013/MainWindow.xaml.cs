@@ -24,5 +24,16 @@ namespace CS_ASP_013
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            labelAnswer.Content = "  ";
+            labelCost.Content = "   ";
+
+            if (radioButtonSix.IsChecked == true)
+            {
+
+            }
+        }
     }
 }
