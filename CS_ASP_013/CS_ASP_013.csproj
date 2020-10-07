@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Light-Wood-Background-Texture-5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Light-Wood-Background-Texture-5.jpg" />
+  </ItemGroup>
+
 </Project>

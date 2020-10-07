@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image HorizontalAlignment="Left" Height="558" VerticalAlignment="Bottom" Width="797" Source="Light-Wood-Background-Texture-5.jpg" Margin="3,0,0,0" Opacity="0.85"/>
+
         <Label Content="Peyton's Subs and Software" HorizontalAlignment="Center" Height="60" Margin="0,10,0,0" VerticalAlignment="Top" Width="450" FontSize="36"/>
         <Label HorizontalAlignment="Left" Height="31" Margin="175,75,0,0" VerticalAlignment="Top" Width="142" Content="Please Order Here Below"/>
         <Label HorizontalAlignment="Left" Height="31" Margin="402,75,0,0" VerticalAlignment="Top" Width="223" Content="You Can Only Buy ONE Sub At This Time"/>
@@ -25,7 +27,7 @@
         <RadioButton x:Name="radioButtonMeatball" Content="Meatball (+1.00)" HorizontalAlignment="Left" Height="27" Margin="237,271,0,0" VerticalAlignment="Top" Width="108" GroupName="meat"/>
         <RadioButton x:Name="radioButtonSteak" Content="Steak (+1.50)" HorizontalAlignment="Left" Height="27" Margin="237,298,0,0" VerticalAlignment="Top" Width="97" GroupName="meat"/>
         <Label x:Name="labelAnswer" Content="Your Sub Here" HorizontalAlignment="Left" Height="32" Margin="78,357,0,0" VerticalAlignment="Top" Width="526" RenderTransformOrigin="0.913,-0.292"/>
-        <Label Content="Special*** $2.00 Off Foot Long Wheat/ Meatball/ American Cheese" HorizontalAlignment="Center" Height="29" Margin="0,395,0,0" VerticalAlignment="Top" Width="368"/>
+        <Label Content="Special*** $2.00 Off Foot Long Wheat/ Meatball/ American Cheese" HorizontalAlignment="Left" Height="29" Margin="86,394,0,0" VerticalAlignment="Top" Width="368"/>
         <Button x:Name="buttonOrder" Content="Order Here" HorizontalAlignment="Left" Height="35" Margin="639,389,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click"/>
         <Label x:Name="labelCost" Content="Your Total" HorizontalAlignment="Left" Height="27" Margin="639,357,0,0" VerticalAlignment="Top" Width="151"/>
         <CheckBox x:Name="checkBoxAmerican" Content="American (+.25)" HorizontalAlignment="Left" Height="22" Margin="393,217,0,0" VerticalAlignment="Top" Width="112"/>
